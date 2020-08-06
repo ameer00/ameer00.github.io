@@ -1,0 +1,17 @@
+branches:
+  only:
+  - master
+install:
+  - wget https://github.com/gohugoio/hugo/releases/download/v0.37.1/hugo_0.37.1_Linux-64bit.deb
+  - sudo dpkg -i hugo_0.37.1_Linux-64bit.deb
+  - rm -rf public || exit 0
+script:
+  - hugo
+  - echo 'me.ameerabbas.com' > public/CNAME
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  local_dir: public
+  on:
+    branch: master
