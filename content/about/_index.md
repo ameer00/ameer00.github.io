@@ -1,11 +1,11 @@
 +++
-title = "About Ray Tsang"
+title = "About Ameer Abbas"
 date = "2019-08-02"
 categories = ["About"]
 +++
 
 ### Biography
-Ray is a Developer Advocate for the Google Cloud Platform and a Java Champion. Ray works with engineering and product teams to improve Java developer productivity on GCP. Ray also help Alphabet companies migrate and adopt cloud native architecture. Prior to Google, Ray worked at Red Hat, Accenture, and other consulting companies. Ray focused on enterprise architecture, managed solutions delivery, and contributed to open source projects.  Aside from technology, Ray enjoys traveling and adventures.
+Ameer is...
 
 ### Projects
 - [JDeferred](http://jdeferred.org/)

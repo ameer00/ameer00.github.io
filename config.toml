@@ -88,9 +88,9 @@ canonifyURLs = true
   # These are optional params related to the sidebar. They are recommended, but not
   # required for proper functionality. HTML is supported within the params.
 [params.intro]
-  header    = "Ray Tsang"
+  header    = "Ameer Abbas"
 
-  paragraph = "Developer Advocate, Google Cloud Platform"
+  paragraph = "Solutions Architect, Google Cloud Platform"
 
   about     = ""
 
